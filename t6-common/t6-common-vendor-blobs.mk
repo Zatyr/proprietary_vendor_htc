@@ -120,7 +120,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/etc/firmware/tzapps.b03:/system/etc/firmware/tzapps.b03 \
         $(LOCAL_PATH)/proprietary/etc/firmware/tzapps.mdt:/system/etc/firmware/tzapps.mdt \
         $(LOCAL_PATH)/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:/system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-        $(LOCAL_PATH)/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+        $(LOCAL_PATH)/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:/system/etc/wifi/WCNSS_qcom_wlan_nv.bin
 
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
