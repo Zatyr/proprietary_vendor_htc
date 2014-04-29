@@ -29,36 +29,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/etc/tfa/deftcoefA_l.speaker:/system/etc/tfa/deftcoefA_l.speaker \
         $(LOCAL_PATH)/proprietary/etc/tfa/deftcoefA.speaker:/system/etc/tfa/deftcoefA.speaker \
-        $(LOCAL_PATH)/proprietary/etc/tfa/fm.config:/system/etc/tfa/fm.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/fm.eq:/system/etc/tfa/fm.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/fm_l.config:/system/etc/tfa/fm_l.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/fm_l.eq:/system/etc/tfa/fm_l.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/fm_l.preset:/system/etc/tfa/fm_l.preset \
-        $(LOCAL_PATH)/proprietary/etc/tfa/fm.preset:/system/etc/tfa/fm.preset \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackbeats.config:/system/etc/tfa/playbackbeats.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackbeats.eq:/system/etc/tfa/playbackbeats.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackbeats_l.config:/system/etc/tfa/playbackbeats_l.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackbeats_l.eq:/system/etc/tfa/playbackbeats_l.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackbeats_l.preset:/system/etc/tfa/playbackbeats_l.preset \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackbeats.preset:/system/etc/tfa/playbackbeats.preset \
         $(LOCAL_PATH)/proprietary/etc/tfa/playback.config:/system/etc/tfa/playback.config \
         $(LOCAL_PATH)/proprietary/etc/tfa/playback.eq:/system/etc/tfa/playback.eq \
         $(LOCAL_PATH)/proprietary/etc/tfa/playback_l.config:/system/etc/tfa/playback_l.config \
         $(LOCAL_PATH)/proprietary/etc/tfa/playback_l.eq:/system/etc/tfa/playback_l.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackMFG.config:/system/etc/tfa/playbackMFG.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackMFG.eq:/system/etc/tfa/playbackMFG.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackMFG.preset:/system/etc/tfa/playbackMFG.preset \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackMFG_l.config:/system/etc/tfa/playbackMFG_l.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackMFG_l.eq:/system/etc/tfa/playbackMFG_l.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/playbackMFG_l.preset:/system/etc/tfa/playbackMFG_l.preset \
         $(LOCAL_PATH)/proprietary/etc/tfa/playback_l.preset:/system/etc/tfa/playback_l.preset \
         $(LOCAL_PATH)/proprietary/etc/tfa/playback.preset:/system/etc/tfa/playback.preset \
-        $(LOCAL_PATH)/proprietary/etc/tfa/recorder.config:/system/etc/tfa/recorder.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/recorder.eq:/system/etc/tfa/recorder.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/recorder_l.config:/system/etc/tfa/recorder_l.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/recorder_l.eq:/system/etc/tfa/recorder_l.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/recorder_l.preset:/system/etc/tfa/recorder_l.preset \
-        $(LOCAL_PATH)/proprietary/etc/tfa/recorder.preset:/system/etc/tfa/recorder.preset \
         $(LOCAL_PATH)/proprietary/etc/tfa/ring.config:/system/etc/tfa/ring.config \
         $(LOCAL_PATH)/proprietary/etc/tfa/ring.eq:/system/etc/tfa/ring.eq \
         $(LOCAL_PATH)/proprietary/etc/tfa/ring_l.config:/system/etc/tfa/ring_l.config \
@@ -67,31 +43,14 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/etc/tfa/ring.preset:/system/etc/tfa/ring.preset \
         $(LOCAL_PATH)/proprietary/etc/tfa/tfa9887_l.patch:/system/etc/tfa/tfa9887_l.patch \
         $(LOCAL_PATH)/proprietary/etc/tfa/tfa9887_l.speaker:/system/etc/tfa/tfa9887_l.speaker \
-        $(LOCAL_PATH)/proprietary/etc/tfa/tfa9887.config:/system/etc/tfa/tfa9887.config \
         $(LOCAL_PATH)/proprietary/etc/tfa/tfa9887.patch:/system/etc/tfa/tfa9887.patch \
         $(LOCAL_PATH)/proprietary/etc/tfa/tfa9887.speaker:/system/etc/tfa/tfa9887.speaker \
-        $(LOCAL_PATH)/proprietary/etc/tfa/tfa9887MFG.patch:/system/etc/tfa/tfa9887MFG.patch \
-        $(LOCAL_PATH)/proprietary/etc/tfa/tfa9887MFG_l.patch:/system/etc/tfa/tfa9887MFG_l.patch \
-        $(LOCAL_PATH)/proprietary/etc/tfa/video.config:/system/etc/tfa/video.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/video.eq:/system/etc/tfa/video.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/video_l.config:/system/etc/tfa/video_l.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/video_l.eq:/system/etc/tfa/video_l.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/video_l.preset:/system/etc/tfa/video_l.preset \
-        $(LOCAL_PATH)/proprietary/etc/tfa/video.preset:/system/etc/tfa/video.preset \
         $(LOCAL_PATH)/proprietary/etc/tfa/voice.config:/system/etc/tfa/voice.config \
         $(LOCAL_PATH)/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
         $(LOCAL_PATH)/proprietary/etc/tfa/voice_l.config:/system/etc/tfa/voice_l.config \
         $(LOCAL_PATH)/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
         $(LOCAL_PATH)/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
         $(LOCAL_PATH)/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
-        $(LOCAL_PATH)/proprietary/etc/tfa/voiceWB.eq:/system/etc/tfa/voiceWB.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/voiceWB_l.eq:/system/etc/tfa/voiceWB_l.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/voip.config:/system/etc/tfa/voip.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/voip.eq:/system/etc/tfa/voip.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/voip_l.config:/system/etc/tfa/voip_l.config \
-        $(LOCAL_PATH)/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
-        $(LOCAL_PATH)/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
-        $(LOCAL_PATH)/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         $(LOCAL_PATH)/proprietary/etc/agps_rm:/system/etc/agps_rm \
         $(LOCAL_PATH)/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         $(LOCAL_PATH)/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
